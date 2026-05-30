@@ -1,0 +1,29 @@
+{
+  "name": "server-to-server",
+  "version": "0.1.0",
+  "description": "Server-to-Server Communication with MongoDB and External API",
+  "keywords": [],
+  "homepage": "https://github.com/CodeSagePath/DCT-Academy---Server-to-Server-Architecture#readme",
+  "bugs": {
+    "url": "https://github.com/CodeSagePath/DCT-Academy---Server-to-Server-Architecture/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeSagePath/DCT-Academy---Server-to-Server-Architecture.git"
+  },
+  "license": "MIT",
+  "author": "CodeSagePath",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.16.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3",
+    "nodemon": "^3.1.14"
+  }
+}
